@@ -1,0 +1,31 @@
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+# ocamlbuild working directory
+_build/
+
+# opam switch directory
+_opam/
+
+# ocamlbuild targets
+*.byte
+*.native
+
+# ide
+.vscode
+
+# oasis generated files
+setup.data
+setup.log
+
+# Merlin configuring file for Vim and Emacs
+.merlin
+
+*.install

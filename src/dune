@@ -1,0 +1,7 @@
+(library
+ (name ppx_traversable)
+ (public_name ppx_traversable)
+ (kind ppx_deriver)
+ (libraries ppxlib)
+ (preprocess (pps ppxlib.metaquot))
+ )
